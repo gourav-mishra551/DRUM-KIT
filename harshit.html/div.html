@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .conatiner{
+            border: 1px solid black;
+            width: auto;
+            height: 100vh;
+            display: flex;
+            margin: 20px;
+        }
+        .left{
+            border: 1px solid black;
+            width: 30vw;
+            margin: 20px;
+        }
+        .right{
+            display: flex;
+            margin: 20px;
+            border: 1px solid black;
+            align-items: center;
+            width: 60vw;
+            position: relative;
+            padding-top: 100px;
+            
+        }
+        .box{
+            border: 1px solid black;
+            height: 28vh;
+            width: 20vw;
+            aspect-ratio: 1/1;
+            margin: 30px;
+        }
+        .top{
+            display: flex;
+            position: absolute;
+            height: 100%;
+            width: 100%;
+        }
+        .bottom{
+            display: flex;
+            position: absolute;
+            height: 100px;
+            width: 100%;
+        
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="conatiner">
+        <div class="left">R1</div>
+        <div class="right">
+            <div class="top">
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+        </div>
+        <div class="bottom">
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+        </div>
+        </div>
+
+    </div>
+    
+</body>
+</html>
